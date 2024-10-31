@@ -49,7 +49,7 @@ Port: 3306
 Database: my_database
 Username: my_user
 Password: my_password
-
+```
 
 ### Usage
 
