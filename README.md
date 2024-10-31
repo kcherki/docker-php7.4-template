@@ -63,6 +63,5 @@ docker-compose logs
 ```
 This Docker template provides a solid base to develop and test your PHP applications, streamlining your workflow.
 
-```bash
+
 This structure includes GitHub-formatted command blocks, making it easy to follow for users who copy it into their own repositories.
-```
