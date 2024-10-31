@@ -1,1 +1,17 @@
- 
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de l'application
+/www/*
+!/www/.gitkeep
+
+# Données MySQL
+/mysql_data/
+
+# Fichiers d'environnement
+.env
+
+# Fichiers IDE
+.idea/
+.vscode/ 

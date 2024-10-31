@@ -1,9 +1,23 @@
+ ----------------------------------------
+# Docker Compose Configuration for PHP 7.4 Development Environment
+# ----------------------------------------
+# Author: CHERKI Kaisser
+# Email: kcherki@live.fr
+# GitHub: https://github.com/kcherki
+# Version: 1.0.0
+# Last Updated: 2024-03-31
+# Description: Configuration Docker pour environnement de développement PHP 7.4
+# ----------------------------------------
+
 version: '3.8'
 
 services:
   web:
     build:
       context: ./docker
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
     ports:
       - "80:80"
     volumes:
