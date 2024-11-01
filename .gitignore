@@ -3,8 +3,8 @@
 Thumbs.db
 
 # Dossiers de l'application
-/www/*
-!/www/.gitkeep
+# /www/*
+# !/www/.gitkeep
 
 # Données MySQL
 /mysql_data/
